@@ -5,4 +5,4 @@
 3. Ivanko Super Gripper
 
 ***
-To run localy copy repository and enter `npm start`
+To run localy copy repository and enter `npm start` in the console window
