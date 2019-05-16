@@ -1,0 +1,33 @@
+@import './variables';
+@import './components/app';
+@import './components/calc';
+@import './components/info_btn';
+
+html,
+body,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+.app {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 1366px;
+  margin: 0 auto;
+  background: white;
+  font-family: 'Roboto Slab', serif;
+  h1 {
+    font-family: 'Baloo Bhai', cursive;
+  }
+  ul {
+    list-style: none;
+  }
+}

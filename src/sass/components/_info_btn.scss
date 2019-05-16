@@ -1,0 +1,35 @@
+.info-btn {
+  transform: translateX(-9px);
+  justify-self: end;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  user-select: none;
+  cursor: pointer;
+  background: $color_1;
+  color: $color_3;
+  height: 40px;
+  width: 40px;
+  font-size: 22px;
+  font-weight: bold;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  box-shadow: 3px 3px 6px rgba($color: #000000, $alpha: 0.6);
+  position: relative;
+  .info-text {
+    font-size: 16px;
+    padding: 16px;
+    border-radius: 10px;
+    position: absolute;
+    right: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 300px;
+    background: $color_1;
+    z-index: 1;
+  }
+}
+.info-active {
+  box-shadow: 0 0 3px rgba($color: #000000, $alpha: 0.6);
+}

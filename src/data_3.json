@@ -1,0 +1,716 @@
+[
+  {
+    "spring_1_pos": 1,
+    "spring_2_pos": 3,
+    "spring_3_pos": 5,
+    "pressure": 45.75
+  },
+  {
+    "spring_1_pos": 1,
+    "spring_2_pos": 3,
+    "spring_3_pos": 6,
+    "pressure": 52.52
+  },
+  {
+    "spring_1_pos": 1,
+    "spring_2_pos": 4,
+    "spring_3_pos": 6,
+    "pressure": 57.7
+  },
+  {
+    "spring_1_pos": 1,
+    "spring_2_pos": 3,
+    "spring_3_pos": 7,
+    "pressure": 60.08
+  },
+  {
+    "spring_1_pos": 2,
+    "spring_2_pos": 4,
+    "spring_3_pos": 6,
+    "pressure": 61.28
+  },
+  {
+    "spring_1_pos": 1,
+    "spring_2_pos": 4,
+    "spring_3_pos": 7,
+    "pressure": 65.26
+  },
+  {
+    "spring_1_pos": 1,
+    "spring_2_pos": 3,
+    "spring_3_pos": 8,
+    "pressure": 68.44
+  },
+  {
+    "spring_1_pos": 2,
+    "spring_2_pos": 4,
+    "spring_3_pos": 7,
+    "pressure": 68.85
+  },
+  {
+    "spring_1_pos": 1,
+    "spring_2_pos": 5,
+    "spring_3_pos": 7,
+    "pressure": 71.23
+  },
+  {
+    "spring_1_pos": 1,
+    "spring_2_pos": 4,
+    "spring_3_pos": 8,
+    "pressure": 73.62
+  },
+  {
+    "spring_1_pos": 2,
+    "spring_2_pos": 5,
+    "spring_3_pos": 7,
+    "pressure": 74.82
+  },
+  {
+    "spring_1_pos": 2,
+    "spring_2_pos": 4,
+    "spring_3_pos": 8,
+    "pressure": 77.21
+  },
+  {
+    "spring_1_pos": 1,
+    "spring_2_pos": 3,
+    "spring_3_pos": 9,
+    "pressure": 77.6
+  },
+  {
+    "spring_1_pos": 3,
+    "spring_2_pos": 5,
+    "spring_3_pos": 7,
+    "pressure": 79.2
+  },
+  {
+    "spring_1_pos": 1,
+    "spring_2_pos": 5,
+    "spring_3_pos": 8,
+    "pressure": 79.59
+  },
+  {
+    "spring_1_pos": 1,
+    "spring_2_pos": 4,
+    "spring_3_pos": 9,
+    "pressure": 82.77
+  },
+  {
+    "spring_1_pos": 2,
+    "spring_2_pos": 5,
+    "spring_3_pos": 8,
+    "pressure": 83.18
+  },
+  {
+    "spring_1_pos": 1,
+    "spring_2_pos": 6,
+    "spring_3_pos": 8,
+    "pressure": 86.36
+  },
+  {
+    "spring_1_pos": 2,
+    "spring_2_pos": 4,
+    "spring_3_pos": 9,
+    "pressure": 86.36
+  },
+  {
+    "spring_1_pos": 1,
+    "spring_2_pos": 3,
+    "spring_3_pos": 10,
+    "pressure": 87.54
+  },
+  {
+    "spring_1_pos": 3,
+    "spring_2_pos": 5,
+    "spring_3_pos": 8,
+    "pressure": 87.56
+  },
+  {
+    "spring_1_pos": 1,
+    "spring_2_pos": 5,
+    "spring_3_pos": 9,
+    "pressure": 88.74
+  },
+  {
+    "spring_1_pos": 2,
+    "spring_2_pos": 6,
+    "spring_3_pos": 8,
+    "pressure": 89.95
+  },
+  {
+    "spring_1_pos": 2,
+    "spring_2_pos": 5,
+    "spring_3_pos": 9,
+    "pressure": 92.33
+  },
+  {
+    "spring_1_pos": 1,
+    "spring_2_pos": 4,
+    "spring_3_pos": 10,
+    "pressure": 92.72
+  },
+  {
+    "spring_1_pos": 3,
+    "spring_2_pos": 6,
+    "spring_3_pos": 8,
+    "pressure": 94.33
+  },
+  {
+    "spring_1_pos": 1,
+    "spring_2_pos": 6,
+    "spring_3_pos": 9,
+    "pressure": 95.51
+  },
+  {
+    "spring_1_pos": 2,
+    "spring_2_pos": 4,
+    "spring_3_pos": 10,
+    "pressure": 96.31
+  },
+  {
+    "spring_1_pos": 3,
+    "spring_2_pos": 5,
+    "spring_3_pos": 9,
+    "pressure": 96.71
+  },
+  {
+    "spring_1_pos": 1,
+    "spring_2_pos": 3,
+    "spring_3_pos": 11,
+    "pressure": 98.29
+  },
+  {
+    "spring_1_pos": 1,
+    "spring_2_pos": 5,
+    "spring_3_pos": 10,
+    "pressure": 98.69
+  },
+  {
+    "spring_1_pos": 2,
+    "spring_2_pos": 6,
+    "spring_3_pos": 9,
+    "pressure": 99.1
+  },
+  {
+    "spring_1_pos": 4,
+    "spring_2_pos": 6,
+    "spring_3_pos": 8,
+    "pressure": 99.5
+  },
+  {
+    "spring_1_pos": 2,
+    "spring_2_pos": 5,
+    "spring_3_pos": 10,
+    "pressure": 102.28
+  },
+  {
+    "spring_1_pos": 1,
+    "spring_2_pos": 7,
+    "spring_3_pos": 9,
+    "pressure": 103.07
+  },
+  {
+    "spring_1_pos": 1,
+    "spring_2_pos": 4,
+    "spring_3_pos": 11,
+    "pressure": 103.46
+  },
+  {
+    "spring_1_pos": 3,
+    "spring_2_pos": 6,
+    "spring_3_pos": 9,
+    "pressure": 103.48
+  },
+  {
+    "spring_1_pos": 1,
+    "spring_2_pos": 6,
+    "spring_3_pos": 10,
+    "pressure": 105.46
+  },
+  {
+    "spring_1_pos": 2,
+    "spring_2_pos": 7,
+    "spring_3_pos": 9,
+    "pressure": 106.66
+  },
+  {
+    "spring_1_pos": 3,
+    "spring_2_pos": 5,
+    "spring_3_pos": 10,
+    "pressure": 106.66
+  },
+  {
+    "spring_1_pos": 2,
+    "spring_2_pos": 4,
+    "spring_3_pos": 11,
+    "pressure": 107.05
+  },
+  {
+    "spring_1_pos": 4,
+    "spring_2_pos": 6,
+    "spring_3_pos": 9,
+    "pressure": 108.66
+  },
+  {
+    "spring_1_pos": 2,
+    "spring_2_pos": 6,
+    "spring_3_pos": 10,
+    "pressure": 109.05
+  },
+  {
+    "spring_1_pos": 1,
+    "spring_2_pos": 5,
+    "spring_3_pos": 11,
+    "pressure": 109.44
+  },
+  {
+    "spring_1_pos": 1,
+    "spring_2_pos": 3,
+    "spring_3_pos": 12,
+    "pressure": 109.83
+  },
+  {
+    "spring_1_pos": 3,
+    "spring_2_pos": 7,
+    "spring_3_pos": 9,
+    "pressure": 111.04
+  },
+  {
+    "spring_1_pos": 1,
+    "spring_2_pos": 7,
+    "spring_3_pos": 10,
+    "pressure": 113.02
+  },
+  {
+    "spring_1_pos": 2,
+    "spring_2_pos": 5,
+    "spring_3_pos": 11,
+    "pressure": 113.03
+  },
+  {
+    "spring_1_pos": 3,
+    "spring_2_pos": 6,
+    "spring_3_pos": 10,
+    "pressure": 113.43
+  },
+  {
+    "spring_1_pos": 1,
+    "spring_2_pos": 4,
+    "spring_3_pos": 12,
+    "pressure": 115.01
+  },
+  {
+    "spring_1_pos": 1,
+    "spring_2_pos": 6,
+    "spring_3_pos": 11,
+    "pressure": 116.21
+  },
+  {
+    "spring_1_pos": 4,
+    "spring_2_pos": 7,
+    "spring_3_pos": 9,
+    "pressure": 116.22
+  },
+  {
+    "spring_1_pos": 2,
+    "spring_2_pos": 7,
+    "spring_3_pos": 10,
+    "pressure": 116.61
+  },
+  {
+    "spring_1_pos": 3,
+    "spring_2_pos": 5,
+    "spring_3_pos": 11,
+    "pressure": 117.41
+  },
+  {
+    "spring_1_pos": 2,
+    "spring_2_pos": 4,
+    "spring_3_pos": 12,
+    "pressure": 118.59
+  },
+  {
+    "spring_1_pos": 4,
+    "spring_2_pos": 6,
+    "spring_3_pos": 10,
+    "pressure": 118.6
+  },
+  {
+    "spring_1_pos": 2,
+    "spring_2_pos": 6,
+    "spring_3_pos": 11,
+    "pressure": 119.79
+  },
+  {
+    "spring_1_pos": 1,
+    "spring_2_pos": 5,
+    "spring_3_pos": 12,
+    "pressure": 120.98
+  },
+  {
+    "spring_1_pos": 3,
+    "spring_2_pos": 7,
+    "spring_3_pos": 10,
+    "pressure": 120.99
+  },
+  {
+    "spring_1_pos": 1,
+    "spring_2_pos": 8,
+    "spring_3_pos": 10,
+    "pressure": 121.38
+  },
+  {
+    "spring_1_pos": 5,
+    "spring_2_pos": 7,
+    "spring_3_pos": 9,
+    "pressure": 122.19
+  },
+  {
+    "spring_1_pos": 1,
+    "spring_2_pos": 7,
+    "spring_3_pos": 11,
+    "pressure": 123.77
+  },
+  {
+    "spring_1_pos": 3,
+    "spring_2_pos": 6,
+    "spring_3_pos": 11,
+    "pressure": 124.18
+  },
+  {
+    "spring_1_pos": 2,
+    "spring_2_pos": 5,
+    "spring_3_pos": 12,
+    "pressure": 124.57
+  },
+  {
+    "spring_1_pos": 2,
+    "spring_2_pos": 8,
+    "spring_3_pos": 10,
+    "pressure": 124.97
+  },
+  {
+    "spring_1_pos": 4,
+    "spring_2_pos": 7,
+    "spring_3_pos": 10,
+    "pressure": 126.17
+  },
+  {
+    "spring_1_pos": 2,
+    "spring_2_pos": 7,
+    "spring_3_pos": 11,
+    "pressure": 127.35
+  },
+  {
+    "spring_1_pos": 1,
+    "spring_2_pos": 6,
+    "spring_3_pos": 12,
+    "pressure": 127.74
+  },
+  {
+    "spring_1_pos": 3,
+    "spring_2_pos": 5,
+    "spring_3_pos": 12,
+    "pressure": 128.95
+  },
+  {
+    "spring_1_pos": 3,
+    "spring_2_pos": 8,
+    "spring_3_pos": 10,
+    "pressure": 129.35
+  },
+  {
+    "spring_1_pos": 4,
+    "spring_2_pos": 6,
+    "spring_3_pos": 11,
+    "pressure": 129.35
+  },
+  {
+    "spring_1_pos": 2,
+    "spring_2_pos": 6,
+    "spring_3_pos": 12,
+    "pressure": 131.33
+  },
+  {
+    "spring_1_pos": 3,
+    "spring_2_pos": 7,
+    "spring_3_pos": 11,
+    "pressure": 131.74
+  },
+  {
+    "spring_1_pos": 1,
+    "spring_2_pos": 8,
+    "spring_3_pos": 11,
+    "pressure": 132.13
+  },
+  {
+    "spring_1_pos": 5,
+    "spring_2_pos": 7,
+    "spring_3_pos": 10,
+    "pressure": 132.14
+  },
+  {
+    "spring_1_pos": 4,
+    "spring_2_pos": 8,
+    "spring_3_pos": 10,
+    "pressure": 134.53
+  },
+  {
+    "spring_1_pos": 1,
+    "spring_2_pos": 7,
+    "spring_3_pos": 12,
+    "pressure": 135.31
+  },
+  {
+    "spring_1_pos": 2,
+    "spring_2_pos": 8,
+    "spring_3_pos": 11,
+    "pressure": 135.71
+  },
+  {
+    "spring_1_pos": 3,
+    "spring_2_pos": 6,
+    "spring_3_pos": 12,
+    "pressure": 135.71
+  },
+  {
+    "spring_1_pos": 4,
+    "spring_2_pos": 7,
+    "spring_3_pos": 11,
+    "pressure": 136.91
+  },
+  {
+    "spring_1_pos": 2,
+    "spring_2_pos": 7,
+    "spring_3_pos": 12,
+    "pressure": 138.89
+  },
+  {
+    "spring_1_pos": 3,
+    "spring_2_pos": 8,
+    "spring_3_pos": 11,
+    "pressure": 140.1
+  },
+  {
+    "spring_1_pos": 5,
+    "spring_2_pos": 8,
+    "spring_3_pos": 10,
+    "pressure": 140.5
+  },
+  {
+    "spring_1_pos": 4,
+    "spring_2_pos": 6,
+    "spring_3_pos": 12,
+    "pressure": 140.89
+  },
+  {
+    "spring_1_pos": 1,
+    "spring_2_pos": 9,
+    "spring_3_pos": 11,
+    "pressure": 141.28
+  },
+  {
+    "spring_1_pos": 5,
+    "spring_2_pos": 7,
+    "spring_3_pos": 11,
+    "pressure": 142.89
+  },
+  {
+    "spring_1_pos": 3,
+    "spring_2_pos": 7,
+    "spring_3_pos": 12,
+    "pressure": 143.28
+  },
+  {
+    "spring_1_pos": 1,
+    "spring_2_pos": 8,
+    "spring_3_pos": 12,
+    "pressure": 143.67
+  },
+  {
+    "spring_1_pos": 2,
+    "spring_2_pos": 9,
+    "spring_3_pos": 11,
+    "pressure": 144.87
+  },
+  {
+    "spring_1_pos": 4,
+    "spring_2_pos": 8,
+    "spring_3_pos": 11,
+    "pressure": 145.27
+  },
+  {
+    "spring_1_pos": 2,
+    "spring_2_pos": 8,
+    "spring_3_pos": 12,
+    "pressure": 147.25
+  },
+  {
+    "spring_1_pos": 6,
+    "spring_2_pos": 8,
+    "spring_3_pos": 10,
+    "pressure": 147.27
+  },
+  {
+    "spring_1_pos": 4,
+    "spring_2_pos": 7,
+    "spring_3_pos": 12,
+    "pressure": 148.45
+  },
+  {
+    "spring_1_pos": 3,
+    "spring_2_pos": 9,
+    "spring_3_pos": 11,
+    "pressure": 149.25
+  },
+  {
+    "spring_1_pos": 5,
+    "spring_2_pos": 8,
+    "spring_3_pos": 11,
+    "pressure": 151.25
+  },
+  {
+    "spring_1_pos": 3,
+    "spring_2_pos": 8,
+    "spring_3_pos": 12,
+    "pressure": 151.64
+  },
+  {
+    "spring_1_pos": 4,
+    "spring_2_pos": 9,
+    "spring_3_pos": 11,
+    "pressure": 154.43
+  },
+  {
+    "spring_1_pos": 5,
+    "spring_2_pos": 7,
+    "spring_3_pos": 12,
+    "pressure": 154.43
+  },
+  {
+    "spring_1_pos": 2,
+    "spring_2_pos": 9,
+    "spring_3_pos": 12,
+    "pressure": 156.41
+  },
+  {
+    "spring_1_pos": 4,
+    "spring_2_pos": 8,
+    "spring_3_pos": 12,
+    "pressure": 156.41
+  },
+  {
+    "spring_1_pos": 6,
+    "spring_2_pos": 8,
+    "spring_3_pos": 11,
+    "pressure": 158.01
+  },
+  {
+    "spring_1_pos": 5,
+    "spring_2_pos": 9,
+    "spring_3_pos": 11,
+    "pressure": 160.4
+  },
+  {
+    "spring_1_pos": 3,
+    "spring_2_pos": 9,
+    "spring_3_pos": 12,
+    "pressure": 160.79
+  },
+  {
+    "spring_1_pos": 1,
+    "spring_2_pos": 10,
+    "spring_3_pos": 12,
+    "pressure": 162.77
+  },
+  {
+    "spring_1_pos": 5,
+    "spring_2_pos": 8,
+    "spring_3_pos": 12,
+    "pressure": 162.79
+  },
+  {
+    "spring_1_pos": 4,
+    "spring_2_pos": 9,
+    "spring_3_pos": 12,
+    "pressure": 165.96
+  },
+  {
+    "spring_1_pos": 2,
+    "spring_2_pos": 10,
+    "spring_3_pos": 12,
+    "pressure": 166.35
+  },
+  {
+    "spring_1_pos": 6,
+    "spring_2_pos": 9,
+    "spring_3_pos": 11,
+    "pressure": 167.17
+  },
+  {
+    "spring_1_pos": 6,
+    "spring_2_pos": 8,
+    "spring_3_pos": 12,
+    "pressure": 169.55
+  },
+  {
+    "spring_1_pos": 3,
+    "spring_2_pos": 10,
+    "spring_3_pos": 12,
+    "pressure": 170.74
+  },
+  {
+    "spring_1_pos": 5,
+    "spring_2_pos": 9,
+    "spring_3_pos": 12,
+    "pressure": 171.94
+  },
+  {
+    "spring_1_pos": 7,
+    "spring_2_pos": 9,
+    "spring_3_pos": 11,
+    "pressure": 174.73
+  },
+  {
+    "spring_1_pos": 4,
+    "spring_2_pos": 10,
+    "spring_3_pos": 12,
+    "pressure": 175.91
+  },
+  {
+    "spring_1_pos": 6,
+    "spring_2_pos": 9,
+    "spring_3_pos": 12,
+    "pressure": 178.71
+  },
+  {
+    "spring_1_pos": 5,
+    "spring_2_pos": 10,
+    "spring_3_pos": 12,
+    "pressure": 181.89
+  },
+  {
+    "spring_1_pos": 7,
+    "spring_2_pos": 9,
+    "spring_3_pos": 12,
+    "pressure": 186.27
+  },
+  {
+    "spring_1_pos": 6,
+    "spring_2_pos": 10,
+    "spring_3_pos": 12,
+    "pressure": 188.65
+  },
+  {
+    "spring_1_pos": 7,
+    "spring_2_pos": 10,
+    "spring_3_pos": 12,
+    "pressure": 196.22
+  },
+  {
+    "spring_1_pos": 8,
+    "spring_2_pos": 10,
+    "spring_3_pos": 12,
+    "pressure": 204.58
+  }
+]

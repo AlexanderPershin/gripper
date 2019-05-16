@@ -1,0 +1,187 @@
+.calc {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: space-between;
+  align-content: start;
+  box-sizing: border-box;
+
+  .calc-header {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    align-content: center;
+    grid-gap: 16px;
+    background: $color_3;
+    .header-label {
+      grid-column: 2 / 5;
+      display: grid;
+      align-content: center;
+      color: white;
+      font-size: 22px;
+    }
+    .header-btns {
+      grid-column: 5 / -1;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 16px;
+      margin: 9px 0;
+      align-content: center;
+      .header-btn {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+        border: none;
+        outline: none;
+        border-radius: 7px;
+        background: $color_5;
+        color: $color_4;
+        box-shadow: 3px 3px 6px rgba($color: #000000, $alpha: 0.6);
+        .spricon {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex: 1 1 30px;
+          svg {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+        }
+      }
+      .header-btn-selected {
+        background: $color_4;
+        color: $color_5;
+        box-shadow: 0 0 3px rgba($color: #000000, $alpha: 0.6);
+      }
+    }
+  }
+
+  .calc-body {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    align-content: center;
+    grid-gap: 16px;
+    background: $color_2;
+    .press,
+    .sprpos,
+    .presstable {
+      grid-column: 1 / -1;
+      display: grid;
+      grid-template-columns: repeat(8, 1fr);
+      align-content: center;
+      grid-gap: 16px;
+      color: white;
+    }
+    .press {
+      .press-label {
+        grid-column: 2 / 5;
+        display: grid;
+        align-content: center;
+        color: white;
+        font-size: 22px;
+      }
+      .press-value {
+        grid-column: 5 / -1;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-content: space-around;
+        align-items: center;
+        grid-gap: 16px;
+        margin: 9px 0;
+        .num,
+        .increase-press-btn,
+        .decrease-press-btn {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        .num {
+          background: $color_6;
+          font-weight: bold;
+          padding: 10px 0;
+        }
+        .increase-press-btn,
+        .decrease-press-btn {
+          cursor: pointer;
+          font-size: 30px;
+          color: white;
+          background: $color_3;
+          border: none;
+          outline: none;
+          border-radius: 7px;
+          box-shadow: 3px 3px 6px rgba($color: #000000, $alpha: 0.6);
+          &:active {
+            color: $color_6;
+            box-shadow: 0 0 3px rgba($color: #000000, $alpha: 0.6);
+          }
+        }
+      }
+    }
+    .sprpos {
+      .sprpos-label {
+        grid-column: 2 / 5;
+        display: grid;
+        align-content: center;
+        color: white;
+        font-size: 22px;
+      }
+      .sprpos-vals {
+        grid-column: 5 / -1;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-content: space-around;
+        align-items: center;
+        grid-gap: 16px;
+        margin: 9px 0;
+        .sprpos-val {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 5px;
+          background: $color_4;
+        }
+      }
+    }
+    .presstable {
+      .presstalbe-label {
+        grid-column: 2 / 5;
+        display: grid;
+        align-content: center;
+        color: white;
+        font-size: 22px;
+      }
+      .presstable-body {
+        grid-column: 5 / -1;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-content: space-around;
+        align-items: center;
+        grid-gap: 16px;
+        margin: 9px 0;
+        .info-btn {
+          grid-column: 4 / -1;
+        }
+      }
+    }
+    .table {
+      grid-column: 2 / 8;
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      grid-gap: 16px;
+      color: white;
+      margin-bottom: 20px;
+      .item {
+        border-radius: 5px;
+        background: $color_4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 3px 3px 6px rgba($color: #000000, $alpha: 0.6);
+      }
+      .selected-item {
+        background: $color_6;
+        box-shadow: 0 0 3px rgba($color: #000000, $alpha: 0.6);
+      }
+    }
+  }
+}
