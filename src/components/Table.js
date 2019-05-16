@@ -2,16 +2,7 @@ import React, { Component } from 'react';
 
 export default class Table extends Component {
   render() {
-    let data = [];
-    if (this.props.numOfSprings === 1) {
-      data = this.props.data1;
-    } else {
-      if (this.props.numOfSprings === 2) {
-        data = this.props.data2;
-      } else {
-        data = this.props.data3;
-      }
-    }
+    const data = this.props.data;
     return (
       <div className='table'>
         {data.map((item, i) => (
@@ -22,6 +13,15 @@ export default class Table extends Component {
                 : 'item'
             }
             key={i}
+            onClick={() =>
+              this.props.handleSetPressure(
+                item.pressure,
+                i,
+                item.spring_1_pos,
+                item.spring_2_pos,
+                item.spring_3_pos
+              )
+            }
           >
             {item.pressure}
           </div>

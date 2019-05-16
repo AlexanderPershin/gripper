@@ -139,6 +139,8 @@
           align-items: center;
           padding: 5px;
           background: $color_4;
+          color: $color_6;
+          font-weight: bold;
         }
       }
     }
@@ -168,9 +170,10 @@
       display: grid;
       grid-template-columns: repeat(6, 1fr);
       grid-gap: 16px;
-      color: white;
+      color: $color_6;
       margin-bottom: 20px;
       .item {
+        cursor: pointer;
         border-radius: 5px;
         background: $color_4;
         display: flex;
@@ -179,6 +182,7 @@
         box-shadow: 3px 3px 6px rgba($color: #000000, $alpha: 0.6);
       }
       .selected-item {
+        color: white;
         background: $color_6;
         box-shadow: 0 0 3px rgba($color: #000000, $alpha: 0.6);
       }

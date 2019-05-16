@@ -3,6 +3,7 @@ import React from 'react';
 import Calculator from './Caclulator';
 
 import gripper_img from '../img/gripper_img.png';
+import githubicon from '../img/github.png';
 
 function App() {
   return (
@@ -19,7 +20,16 @@ function App() {
         </div>
       </header>
       <Calculator />
-      <footer className='app-footer'>Footer</footer>
+      <footer className='app-footer'>
+        View code on GitHub{' '}
+        <a
+          href='https://github.com/AlexanderPershin/gripper'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          <img src={githubicon} alt='github' />
+        </a>
+      </footer>
     </div>
   );
 }

@@ -17,7 +17,7 @@ export default class InfoBtn extends Component {
 
   handleOutClick = e => {
     if (this.state.compId === e.target.id) {
-      console.log('info', this.state.compId);
+      // Info btn pressed
     } else {
       this.setState({ showInfo: false });
     }

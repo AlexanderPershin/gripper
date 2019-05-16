@@ -44,5 +44,13 @@
   .app-footer {
     grid-column: 1 / -1;
     background: $color_2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      height: 30px;
+      width: 30px;
+      margin: 5px 0 5px 10px;
+    }
   }
 }

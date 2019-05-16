@@ -11,9 +11,47 @@ import data3 from '../data_3.json';
 
 export default class Caclulator extends Component {
   state = {
+    data: data1,
     numOfSprings: 1,
-    selectedPressure: 5.8
+    selectedPressure: 5.8,
+    selectedIndex: 0,
+    spr1: 1,
+    spr2: null,
+    spr3: null
   };
+
+  componentDidMount() {
+    const savedData = JSON.parse(localStorage.getItem('gripper'));
+    if (savedData) {
+      const {
+        numOfSprings,
+        selectedIndex,
+        selectedPressure,
+        spring_1_pos,
+        spring_2_pos,
+        spring_3_pos
+      } = savedData;
+      let newData;
+      if (savedData.numOfSprings === 1) {
+        newData = data1;
+      } else {
+        if (savedData.numOfSprings === 2) {
+          newData = data2;
+        } else {
+          newData = data3;
+        }
+      }
+      this.setState({
+        data: newData,
+        numOfSprings,
+        selectedIndex,
+        selectedPressure,
+        spr1: spring_1_pos,
+        spr2: spring_2_pos,
+        spr3: spring_3_pos
+      });
+    }
+  }
 
   ifSelected = num => {
     if (num === this.state.numOfSprings) {
@@ -32,7 +70,158 @@ export default class Caclulator extends Component {
   };
 
   handleSelectNumOfSprings = num => {
-    this.setState(prevState => ({ numOfSprings: num }));
+    const savedData = JSON.parse(localStorage.getItem('gripper'));
+
+    let newSelectedIndex;
+    let newPress;
+    let spring_1_pos, spring_2_pos, spring_3_pos;
+    let newData;
+
+    if (num === 1) {
+      if (savedData.numOfSprings === 1) {
+        newSelectedIndex = savedData.selectedIndex;
+        newPress = savedData.selectedPressure;
+        spring_1_pos = savedData.spring_1_pos;
+        spring_2_pos = savedData.spring_2_pos;
+        spring_3_pos = savedData.spring_3_pos;
+        newData = data1;
+      } else {
+        newSelectedIndex = 0;
+        newPress = data1[0].pressure;
+        spring_1_pos = data1[0].spring_1_pos;
+        spring_2_pos = data1[0].spring_2_pos;
+        spring_3_pos = data1[0].spring_3_pos;
+        newData = data1;
+      }
+    } else {
+      if (num === 2) {
+        if (savedData.numOfSprings === 2) {
+          newSelectedIndex = savedData.selectedIndex;
+          newPress = savedData.selectedPressure;
+          spring_1_pos = savedData.spring_1_pos;
+          spring_2_pos = savedData.spring_2_pos;
+          spring_3_pos = savedData.spring_3_pos;
+          newData = data2;
+        } else {
+          newSelectedIndex = 0;
+          newPress = data2[0].pressure;
+          spring_1_pos = data2[0].spring_1_pos;
+          spring_2_pos = data2[0].spring_2_pos;
+          spring_3_pos = data2[0].spring_3_pos;
+          newData = data2;
+        }
+      } else {
+        if (savedData.numOfSprings === 3) {
+          newSelectedIndex = savedData.selectedIndex;
+          newPress = savedData.selectedPressure;
+          spring_1_pos = savedData.spring_1_pos;
+          spring_2_pos = savedData.spring_2_pos;
+          spring_3_pos = savedData.spring_3_pos;
+          newData = data3;
+        } else {
+          newSelectedIndex = 0;
+          newPress = data3[0].pressure;
+          spring_1_pos = data3[0].spring_1_pos;
+          spring_2_pos = data3[0].spring_2_pos;
+          spring_3_pos = data3[0].spring_3_pos;
+          newData = data3;
+        }
+      }
+    }
+
+    this.setState(prevState => ({
+      data: newData,
+      numOfSprings: num,
+      selectedPressure: newPress,
+      selectedIndex: newSelectedIndex,
+      spr1: spring_1_pos,
+      spr2: spring_2_pos,
+      spr3: spring_3_pos
+    }));
+  };
+
+  handleSetPressure = (pressure, index, spr1, spr2, spr3) => {
+    localStorage.setItem(
+      'gripper',
+      JSON.stringify({
+        numOfSprings: this.state.numOfSprings,
+        selectedIndex: index,
+        selectedPressure: pressure,
+        spring_1_pos: spr1,
+        spring_2_pos: spr2,
+        spring_3_pos: spr3
+      })
+    );
+
+    this.setState({
+      selectedPressure: pressure,
+      selectedIndex: index,
+      spr1,
+      spr2,
+      spr3
+    });
+  };
+
+  handleIncreasePressure = () => {
+    if (this.state.selectedIndex < this.state.data.length - 1) {
+      const newElem = this.state.data[this.state.selectedIndex + 1];
+      const newPressure = newElem.pressure;
+      const newSelectedIndex = this.state.selectedIndex + 1;
+      const newSpr1 = newElem.spring_1_pos;
+      const newSpr2 = newElem.spring_2_pos || null;
+      const newSpr3 = newElem.spring_3_pos || null;
+
+      localStorage.setItem(
+        'gripper',
+        JSON.stringify({
+          numOfSprings: this.state.numOfSprings,
+          selectedIndex: newSelectedIndex,
+          selectedPressure: newPressure,
+          spring_1_pos: newSpr1,
+          spring_2_pos: newSpr2,
+          spring_3_pos: newSpr3
+        })
+      );
+
+      this.setState({
+        selectedPressure: newPressure,
+        selectedIndex: newSelectedIndex,
+        spr1: newSpr1,
+        spr2: newSpr2,
+        spr3: newSpr3
+      });
+    }
+  };
+
+  handleDecreasePressure = () => {
+    if (this.state.selectedIndex > 0) {
+      const newElem = this.state.data[this.state.selectedIndex - 1];
+      const newPressure = newElem.pressure;
+      const newSelectedIndex = this.state.selectedIndex - 1;
+      const newSpr1 = newElem.spring_1_pos;
+      const newSpr2 = newElem.spring_2_pos || null;
+      const newSpr3 = newElem.spring_3_pos || null;
+
+      localStorage.setItem(
+        'gripper',
+        JSON.stringify({
+          numOfSprings: this.state.numOfSprings,
+          selectedIndex: newSelectedIndex,
+          selectedPressure: newPressure,
+          spring_1_pos: newSpr1,
+          spring_2_pos: newSpr2,
+          spring_3_pos: newSpr3
+        })
+      );
+
+      this.setState({
+        selectedPressure: newPressure,
+        selectedIndex: newSelectedIndex,
+        spr1: newSpr1,
+        spr2: newSpr2,
+        spr3: newSpr3
+      });
+    }
   };
 
   render() {
@@ -97,23 +286,39 @@ export default class Caclulator extends Component {
           <div className='press'>
             <div className='press-label'>Pressure (kg)</div>
             <div className='press-value'>
-              <div className='num'>5,80</div>
-              <button className='increase-press-btn'>+</button>
-              <button className='decrease-press-btn'>-</button>
+              <button
+                className='decrease-press-btn'
+                onClick={this.handleDecreasePressure}
+              >
+                -
+              </button>
+              <div className='num'>{this.state.selectedPressure}</div>
+              <button
+                className='increase-press-btn'
+                onClick={this.handleIncreasePressure}
+              >
+                +
+              </button>
               <InfoBtn info='Select the pressure' />
             </div>
           </div>
           <div className='sprpos'>
             <div className='sprpos-label'>Springs Position</div>
             <div className='sprpos-vals'>
-              <div className='sprpos-val'>1</div>
-              <div className='sprpos-val'>3</div>
-              <div className='sprpos-val'>5</div>
+              <div className='sprpos-val' title='spring 1 position'>
+                {this.state.spr1}
+              </div>
+              <div className='sprpos-val' title='spring 2 position'>
+                {this.state.spr2}
+              </div>
+              <div className='sprpos-val' title='spring 3 position'>
+                {this.state.spr3}
+              </div>
               <InfoBtn info='Here you can see springs posinion' />
             </div>
           </div>
           <div className='presstable'>
-            <div className='presstalbe-label'>Select Pressure</div>
+            <div className='presstalbe-label'>Select Pressure (kg)</div>
             <div className='presstable-body'>
               <InfoBtn info='Choose Pressure from the table' />
             </div>
@@ -124,6 +329,8 @@ export default class Caclulator extends Component {
             data1={data1}
             data2={data2}
             data3={data3}
+            data={this.state.data}
+            handleSetPressure={this.handleSetPressure}
           />
         </div>
       </main>
