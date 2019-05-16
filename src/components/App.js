@@ -19,6 +19,7 @@ function App() {
         </div>
       </header>
       <Calculator />
+      <footer className='app-footer'>Footer</footer>
     </div>
   );
 }

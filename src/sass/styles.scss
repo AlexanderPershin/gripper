@@ -8,12 +8,16 @@ body,
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 html,
-body,
+body {
+  height: 100%;
+  box-sizing: border-box;
+}
+
 .app {
+  min-height: 100vh;
   height: 100%;
 }
 

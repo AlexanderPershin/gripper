@@ -6,11 +6,11 @@
 .app {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 200px 1fr;
+  grid-template-rows: 200px 1fr auto;
   grid-gap: 16px;
   row-gap: 45px;
   box-sizing: border-box;
-  height: 100vh;
+
   background: $color_1;
   .app-header {
     grid-column: 1 / -1;
@@ -40,5 +40,9 @@
   }
   .calc {
     grid-column: 3 / 11;
+  }
+  .app-footer {
+    grid-column: 1 / -1;
+    background: $color_2;
   }
 }
