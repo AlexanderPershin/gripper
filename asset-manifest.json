@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/AlexanderPershin/gripper/static/css/main.8a9d46ee.chunk.css",
-    "main.js": "/AlexanderPershin/gripper/static/js/main.f6c61563.chunk.js",
-    "main.js.map": "/AlexanderPershin/gripper/static/js/main.f6c61563.chunk.js.map",
-    "runtime~main.js": "/AlexanderPershin/gripper/static/js/runtime~main.6ba9370d.js",
-    "runtime~main.js.map": "/AlexanderPershin/gripper/static/js/runtime~main.6ba9370d.js.map",
-    "static/js/2.8f391efc.chunk.js": "/AlexanderPershin/gripper/static/js/2.8f391efc.chunk.js",
-    "static/js/2.8f391efc.chunk.js.map": "/AlexanderPershin/gripper/static/js/2.8f391efc.chunk.js.map",
-    "index.html": "/AlexanderPershin/gripper/index.html",
-    "precache-manifest.3214e5848f4ebe4fee8b14441c8bc146.js": "/AlexanderPershin/gripper/precache-manifest.3214e5848f4ebe4fee8b14441c8bc146.js",
-    "service-worker.js": "/AlexanderPershin/gripper/service-worker.js",
-    "static/css/main.8a9d46ee.chunk.css.map": "/AlexanderPershin/gripper/static/css/main.8a9d46ee.chunk.css.map",
-    "static/media/gripper_img.png": "/AlexanderPershin/gripper/static/media/gripper_img.c8d32308.png"
+    "main.css": "/gripper/static/css/main.8a9d46ee.chunk.css",
+    "main.js": "/gripper/static/js/main.f6c61563.chunk.js",
+    "main.js.map": "/gripper/static/js/main.f6c61563.chunk.js.map",
+    "runtime~main.js": "/gripper/static/js/runtime~main.90744664.js",
+    "runtime~main.js.map": "/gripper/static/js/runtime~main.90744664.js.map",
+    "static/js/2.8f391efc.chunk.js": "/gripper/static/js/2.8f391efc.chunk.js",
+    "static/js/2.8f391efc.chunk.js.map": "/gripper/static/js/2.8f391efc.chunk.js.map",
+    "index.html": "/gripper/index.html",
+    "precache-manifest.bb54febd9398d52a4294e0c60a8f1826.js": "/gripper/precache-manifest.bb54febd9398d52a4294e0c60a8f1826.js",
+    "service-worker.js": "/gripper/service-worker.js",
+    "static/css/main.8a9d46ee.chunk.css.map": "/gripper/static/css/main.8a9d46ee.chunk.css.map",
+    "static/media/gripper_img.png": "/gripper/static/media/gripper_img.c8d32308.png"
   }
 }
