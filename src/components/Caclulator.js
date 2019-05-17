@@ -78,7 +78,7 @@ export default class Caclulator extends Component {
     let newData;
 
     if (num === 1) {
-      if (savedData.numOfSprings === 1) {
+      if (savedData && savedData.numOfSprings === 1) {
         newSelectedIndex = savedData.selectedIndex;
         newPress = savedData.selectedPressure;
         spring_1_pos = savedData.spring_1_pos;
@@ -95,7 +95,7 @@ export default class Caclulator extends Component {
       }
     } else {
       if (num === 2) {
-        if (savedData.numOfSprings === 2) {
+        if (savedData && savedData.numOfSprings === 2) {
           newSelectedIndex = savedData.selectedIndex;
           newPress = savedData.selectedPressure;
           spring_1_pos = savedData.spring_1_pos;
@@ -111,7 +111,7 @@ export default class Caclulator extends Component {
           newData = data2;
         }
       } else {
-        if (savedData.numOfSprings === 3) {
+        if (savedData && savedData.numOfSprings === 3) {
           newSelectedIndex = savedData.selectedIndex;
           newPress = savedData.selectedPressure;
           spring_1_pos = savedData.spring_1_pos;
