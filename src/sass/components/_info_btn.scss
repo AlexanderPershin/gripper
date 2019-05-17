@@ -28,8 +28,18 @@
     width: 300px;
     background: $color_1;
     z-index: 1;
+    box-shadow: 1px 1px 7px rgba($color: #000000, $alpha: 0.6);
   }
 }
 .info-active {
   box-shadow: 0 0 3px rgba($color: #000000, $alpha: 0.6);
+}
+
+@media (max-width: 640px) {
+  .info-btn {
+    .info-text {
+      font-size: 12px !important;
+      width: 200px;
+    }
+  }
 }

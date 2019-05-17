@@ -8,9 +8,7 @@ export default class Table extends Component {
         {data.map((item, i) => (
           <div
             className={
-              this.props.selectedItem === item.pressure
-                ? 'item selected-item'
-                : 'item'
+              this.props.selectedIndex === i ? 'item selected-item' : 'item'
             }
             key={i}
             onClick={() =>

@@ -1,0 +1,24 @@
+@media (max-width: 890px) {
+  .app-header {
+    .app-greeting {
+      grid-column: 4 / -1;
+    }
+  }
+  .calc {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 640px) {
+  .app-greeting {
+    grid-column: 5 / 12;
+    display: grid;
+    align-content: center;
+    .app-name {
+      font-size: 22px;
+    }
+    .app-items {
+      font-size: 16px;
+    }
+  }
+}

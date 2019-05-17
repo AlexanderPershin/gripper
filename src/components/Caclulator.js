@@ -20,6 +20,20 @@ export default class Caclulator extends Component {
     spr3: null
   };
 
+  wrightToLocalStorage = (pressure, index, spr1, spr2, spr3) => {
+    localStorage.setItem(
+      'gripper',
+      JSON.stringify({
+        numOfSprings: this.state.numOfSprings,
+        selectedIndex: index,
+        selectedPressure: pressure,
+        spring_1_pos: spr1,
+        spring_2_pos: spr2,
+        spring_3_pos: spr3
+      })
+    );
+  };
+
   componentDidMount() {
     const savedData = JSON.parse(localStorage.getItem('gripper'));
     if (savedData) {
@@ -141,17 +155,7 @@ export default class Caclulator extends Component {
   };
 
   handleSetPressure = (pressure, index, spr1, spr2, spr3) => {
-    localStorage.setItem(
-      'gripper',
-      JSON.stringify({
-        numOfSprings: this.state.numOfSprings,
-        selectedIndex: index,
-        selectedPressure: pressure,
-        spring_1_pos: spr1,
-        spring_2_pos: spr2,
-        spring_3_pos: spr3
-      })
-    );
+    this.wrightToLocalStorage(pressure, index, spr1, spr2, spr3);
 
     this.setState({
       selectedPressure: pressure,
@@ -171,16 +175,12 @@ export default class Caclulator extends Component {
       const newSpr2 = newElem.spring_2_pos || null;
       const newSpr3 = newElem.spring_3_pos || null;
 
-      localStorage.setItem(
-        'gripper',
-        JSON.stringify({
-          numOfSprings: this.state.numOfSprings,
-          selectedIndex: newSelectedIndex,
-          selectedPressure: newPressure,
-          spring_1_pos: newSpr1,
-          spring_2_pos: newSpr2,
-          spring_3_pos: newSpr3
-        })
+      this.wrightToLocalStorage(
+        newPressure,
+        newSelectedIndex,
+        newSpr1,
+        newSpr2,
+        newSpr3
       );
 
       this.setState({
@@ -202,16 +202,12 @@ export default class Caclulator extends Component {
       const newSpr2 = newElem.spring_2_pos || null;
       const newSpr3 = newElem.spring_3_pos || null;
 
-      localStorage.setItem(
-        'gripper',
-        JSON.stringify({
-          numOfSprings: this.state.numOfSprings,
-          selectedIndex: newSelectedIndex,
-          selectedPressure: newPressure,
-          spring_1_pos: newSpr1,
-          spring_2_pos: newSpr2,
-          spring_3_pos: newSpr3
-        })
+      this.wrightToLocalStorage(
+        newPressure,
+        newSelectedIndex,
+        newSpr1,
+        newSpr2,
+        newSpr3
       );
 
       this.setState({
@@ -325,6 +321,7 @@ export default class Caclulator extends Component {
           </div>
           <Table
             selectedItem={this.state.selectedPressure}
+            selectedIndex={this.state.selectedIndex}
             numOfSprings={this.state.numOfSprings}
             data1={data1}
             data2={data2}
