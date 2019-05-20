@@ -5,7 +5,54 @@
     }
   }
   .calc {
-    grid-column: 1 / -1;
+    grid-column: 1 / -1 !important;
+  }
+  .calc-header {
+    .header-label {
+      grid-column: 1 / 4 !important;
+    }
+    .header-btns {
+      grid-column: 4 / -1 !important;
+    }
+  }
+  .calc-body {
+    .press {
+      .press-label {
+        grid-column: 1 / 4 !important;
+      }
+      .press-value {
+        grid-column: 4 / -1 !important;
+      }
+    }
+    .sprpos {
+      .sprpos-label {
+        grid-column: 1 / 4 !important;
+      }
+      .sprpos-vals {
+        grid-column: 4 / -1 !important;
+      }
+    }
+    .presstable {
+      .presstalbe-label {
+        grid-column: 1 / 4 !important;
+      }
+      .presstable-body {
+        grid-column: 4 / -1 !important;
+      }
+    }
+    .table {
+      grid-column: 1 / -1 !important;
+      grid-template-columns: repeat(auto-fit, minmax(50px, 1fr)) !important;
+    }
+  }
+}
+
+@media (max-width: 750px) {
+  .app-name {
+    font-size: 22px !important;
+  }
+  .app-items {
+    font-size: 16px !important;
   }
 }
 
@@ -14,11 +61,68 @@
     grid-column: 5 / 12;
     display: grid;
     align-content: center;
-    .app-name {
-      font-size: 22px;
+  }
+
+  .calc-header {
+    .header-label {
+      font-size: 16px !important;
     }
-    .app-items {
-      font-size: 16px;
+    .header-btns {
+      grid-column: 4 / -1 !important;
+    }
+  }
+  .calc-body {
+    .press {
+      .press-label {
+        font-size: 16px !important;
+      }
+      .press-value {
+        grid-column: 4 / -1 !important;
+      }
+    }
+    .sprpos {
+      .sprpos-label {
+        font-size: 16px !important;
+      }
+      .sprpos-vals {
+        grid-column: 4 / -1 !important;
+      }
+    }
+    .presstable {
+      .presstalbe-label {
+        font-size: 16px !important;
+      }
+      .presstable-body {
+        grid-column: 4 / -1 !important;
+      }
+    }
+    .table {
+      grid-column: 1 / -1 !important;
+      grid-template-columns: repeat(auto-fit, minmax(50px, 1fr)) !important;
+    }
+  }
+}
+
+@media (max-width: 570px) {
+  .spricon {
+    svg {
+      height: 20px;
+      width: 20px;
+    }
+  }
+}
+
+@media (max-width: 350px) {
+  .app-items {
+    display: none;
+  }
+  .info-btn {
+    display: none;
+  }
+  .spricon {
+    svg {
+      height: 15px;
+      width: 15px;
     }
   }
 }

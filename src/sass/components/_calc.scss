@@ -189,29 +189,3 @@
     }
   }
 }
-
-@media (max-width: 640px) {
-  .calc-header {
-    .header-label {
-      font-size: 16px !important;
-      grid-column: 1 / 4 !important;
-    }
-  }
-  .calc-body {
-    .press {
-      .press-label {
-        font-size: 16px !important;
-      }
-    }
-    .sprpos {
-      .sprpos-label {
-        font-size: 16px !important;
-      }
-    }
-    .presstable {
-      .presstalbe-label {
-        font-size: 16px !important;
-      }
-    }
-  }
-}
