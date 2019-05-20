@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7738c384c5f3bfbd90ebfd53cbb47d69",
+    "revision": "4b5bca35e65a2ab865ee651713a782d3",
     "url": "/gripper/index.html"
   },
   {
-    "revision": "ec8d9bfc57595e968e9d",
-    "url": "/gripper/static/css/main.89896eba.chunk.css"
+    "revision": "6bf25d6508e16324bee2",
+    "url": "/gripper/static/css/main.b3f520ac.chunk.css"
   },
   {
     "revision": "b48eb36bc2f73cb851f0",
     "url": "/gripper/static/js/2.8f391efc.chunk.js"
   },
   {
-    "revision": "ec8d9bfc57595e968e9d",
-    "url": "/gripper/static/js/main.cd7c74b4.chunk.js"
+    "revision": "6bf25d6508e16324bee2",
+    "url": "/gripper/static/js/main.cb315b52.chunk.js"
   },
   {
     "revision": "3ed6a3dde2cef0b71249",
