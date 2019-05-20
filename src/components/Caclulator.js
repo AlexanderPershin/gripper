@@ -313,19 +313,23 @@ export default class Caclulator extends Component {
           <div className='press'>
             <div className='press-label'>Pressure (kg)</div>
             <div className='press-value'>
-              <button
-                className='decrease-press-btn'
-                onClick={this.handleDecreasePressure}
-              >
-                -
-              </button>
+              <div className='btn-wrapper'>
+                <button
+                  className='decrease-press-btn'
+                  onClick={this.handleDecreasePressure}
+                >
+                  -
+                </button>
+              </div>
               <div className='num'>{this.state.selectedPressure}</div>
-              <button
-                className='increase-press-btn'
-                onClick={this.handleIncreasePressure}
-              >
-                +
-              </button>
+              <div className='btn-wrapper'>
+                <button
+                  className='increase-press-btn'
+                  onClick={this.handleIncreasePressure}
+                >
+                  +
+                </button>
+              </div>
               <InfoBtn info='Select the pressure' />
             </div>
           </div>
