@@ -21,12 +21,12 @@ function App() {
       </header>
       <Calculator />
       <footer className='app-footer'>
-        View code on GitHub{' '}
         <a
           href='https://github.com/AlexanderPershin/gripper'
           target='_blank'
           rel='noopener noreferrer'
         >
+          <span className='footer-text'>View code on GitHub</span>
           <img src={githubicon} alt='github' />
         </a>
       </footer>

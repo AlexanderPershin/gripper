@@ -30,3 +30,37 @@ body {
     list-style: none;
   }
 }
+
+// Scrollbar
+body::-webkit-scrollbar {
+  width: 16px;
+}
+
+body::-webkit-scrollbar-track {
+  background: rgba(31, 191, 146, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: $color_3;
+  border-radius: 8px;
+  border: 2px solid $color_2;
+}
+
+// Up button
+.up-btn {
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  height: 50px;
+  width: 50px;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  background: rgba(31, 191, 146, 0.3);
+  transition: background 0.5s ease-in-out 0.01s;
+  &:hover {
+    background: rgba(31, 191, 146, 0.7);
+  }
+}

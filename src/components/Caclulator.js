@@ -17,7 +17,8 @@ export default class Caclulator extends Component {
     selectedIndex: 0,
     spr1: 1,
     spr2: null,
-    spr3: null
+    spr3: null,
+    showUpBtn: false
   };
 
   wrightToLocalStorage = (pressure, index, spr1, spr2, spr3) => {
@@ -35,6 +36,8 @@ export default class Caclulator extends Component {
   };
 
   componentDidMount() {
+    window.addEventListener('scroll', this.handleScroll);
+
     const savedData = JSON.parse(localStorage.getItem('gripper'));
     if (savedData) {
       const {
@@ -65,6 +68,10 @@ export default class Caclulator extends Component {
         spr3: spring_3_pos
       });
     }
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this.handleScroll);
   }
 
   ifSelected = num => {
@@ -220,6 +227,30 @@ export default class Caclulator extends Component {
     }
   };
 
+  handleScroll = () => {
+    const scrollHeight = Math.max(
+      document.body.scrollHeight,
+      document.documentElement.scrollHeight,
+      document.body.offsetHeight,
+      document.documentElement.offsetHeight,
+      document.body.clientHeight,
+      document.documentElement.clientHeight
+    );
+    const scrollOffset = document.documentElement.scrollTop;
+    const sbHeight =
+      window.innerHeight * (window.innerHeight / document.body.offsetHeight);
+
+    if (Math.ceil(scrollOffset) + sbHeight >= scrollHeight) {
+      this.setState({ showUpBtn: true });
+    } else {
+      this.setState({ showUpBtn: false });
+    }
+  };
+
+  handleScrollTop = () => {
+    document.documentElement.scrollTop = 0;
+  };
+
   render() {
     return (
       <main className='calc'>
@@ -330,6 +361,11 @@ export default class Caclulator extends Component {
             handleSetPressure={this.handleSetPressure}
           />
         </div>
+        {this.state.showUpBtn ? (
+          <button className='up-btn' onClick={this.handleScrollTop}>
+            Up
+          </button>
+        ) : null}
       </main>
     );
   }
