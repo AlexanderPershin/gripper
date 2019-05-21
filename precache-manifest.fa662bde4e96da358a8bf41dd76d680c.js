@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cd1463f2abe5c83ea91876582ec89786",
+    "revision": "c607c5735033aa06c372628e96ce0e24",
     "url": "/gripper/index.html"
   },
   {
