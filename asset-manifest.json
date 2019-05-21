@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/gripper/static/css/main.8d565e77.chunk.css",
-    "main.js": "/gripper/static/js/main.1933c616.chunk.js",
-    "main.js.map": "/gripper/static/js/main.1933c616.chunk.js.map",
+    "main.css": "/gripper/static/css/main.0d2ec787.chunk.css",
+    "main.js": "/gripper/static/js/main.9f6fb973.chunk.js",
+    "main.js.map": "/gripper/static/js/main.9f6fb973.chunk.js.map",
     "runtime~main.js": "/gripper/static/js/runtime~main.90744664.js",
     "runtime~main.js.map": "/gripper/static/js/runtime~main.90744664.js.map",
-    "static/js/2.cfdf17e8.chunk.js": "/gripper/static/js/2.cfdf17e8.chunk.js",
-    "static/js/2.cfdf17e8.chunk.js.map": "/gripper/static/js/2.cfdf17e8.chunk.js.map",
+    "static/js/2.03b14933.chunk.js": "/gripper/static/js/2.03b14933.chunk.js",
+    "static/js/2.03b14933.chunk.js.map": "/gripper/static/js/2.03b14933.chunk.js.map",
     "index.html": "/gripper/index.html",
-    "precache-manifest.30437abaabbffb0fb1d90fc8cf99f0c8.js": "/gripper/precache-manifest.30437abaabbffb0fb1d90fc8cf99f0c8.js",
+    "precache-manifest.7e8c671a513e888f0ace97186b286e89.js": "/gripper/precache-manifest.7e8c671a513e888f0ace97186b286e89.js",
     "service-worker.js": "/gripper/service-worker.js",
-    "static/css/main.8d565e77.chunk.css.map": "/gripper/static/css/main.8d565e77.chunk.css.map",
+    "static/css/main.0d2ec787.chunk.css.map": "/gripper/static/css/main.0d2ec787.chunk.css.map",
+    "static/media/button-15.wav": "/gripper/static/media/button-15.4b7bd973.wav",
     "static/media/gripper_img.png": "/gripper/static/media/gripper_img.c8d32308.png"
   }
 }
