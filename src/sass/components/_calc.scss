@@ -98,10 +98,9 @@
         .num {
           background: $color_6;
           font-weight: bold;
-          padding: 10px 0;
+          padding: 15px 0;
         }
         .btn-wrapper {
-          // justify-self: center;
           filter: drop-shadow(3px 3px 6px rgba($color: #000000, $alpha: 0.6));
           display: inline-flex;
           justify-content: flex-start;
@@ -125,10 +124,10 @@
         .decrease-press-btn {
           margin-left: auto;
         }
-        .btn-wrapper {
-          &:active {
+        .btn-wrapper:active {
+          filter: drop-shadow(0 0 3px rgba($color: #000000, $alpha: 0.6));
+          & > button {
             color: $color_6;
-            filter: drop-shadow(0 0 3px rgba($color: #000000, $alpha: 0.6));
           }
         }
         .increase-press-btn {

@@ -13,6 +13,7 @@
 
   background: $color_1;
   .app-header {
+    position: relative;
     grid-column: 1 / -1;
     grid-row: 1 / 2;
     display: grid;
@@ -42,6 +43,47 @@
         font-size: 22px;
       }
     }
+
+    .down-wrapper {
+      position: absolute;
+      bottom: -10px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    .scroll-down {
+      cursor: pointer;
+      position: relative;
+      text-align: center;
+      padding: 1px;
+      margin-bottom: 6px;
+      height: 6px;
+      width: 30px;
+      opacity: 0.5;
+      transition: opacity 0.5s ease-in-out 0.01s;
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+    .scroll-down:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 51%;
+      background: $color_3;
+      transform: skew(0deg, 30deg);
+    }
+    .scroll-down:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+      width: 50%;
+      background: $color_3;
+      transform: skew(0deg, -30deg);
+    }
   }
   .calc {
     grid-column: 3 / 11;
@@ -58,10 +100,11 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      font-size: 14px;
     }
     img {
-      height: 30px;
-      width: 30px;
+      height: 20px;
+      width: 20px;
       margin: 5px 0 5px 10px;
     }
   }

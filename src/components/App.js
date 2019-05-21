@@ -8,6 +8,10 @@ import gripper_img from '../img/gripper_img.png';
 import githubicon from '../img/github.png';
 
 class App extends Component {
+  handleScrollToContent = () => {
+    document.documentElement.scrollTop = 245;
+  };
+
   renderContent = () =>
     navigator.language === 'ru-RU' ? (
       <Redirect to='/ru' />
@@ -26,6 +30,9 @@ class App extends Component {
               <li className='item'>Woody Vice Gripper</li>
               <li className='item'>Ivanko Super Gripper</li>
             </ul>
+          </div>
+          <div className='down-wrapper'>
+            <div className='scroll-down' onClick={this.handleScrollToContent} />
           </div>
         </header>
         <Calculator />

@@ -1,3 +1,12 @@
+@media (max-width: 1005px) {
+  .app-name {
+    font-size: 22px !important;
+  }
+  .app-items {
+    font-size: 16px !important;
+  }
+}
+
 @media (max-width: 890px) {
   .app-header {
     .app-greeting {
@@ -8,6 +17,7 @@
     grid-column: 1 / -1 !important;
   }
   .calc-header {
+    grid-template-columns: repeat(12, 1fr) !important;
     .header-label {
       grid-column: 1 / 4 !important;
     }
@@ -16,7 +26,9 @@
     }
   }
   .calc-body {
+    grid-template-columns: repeat(12, 1fr) !important;
     .press {
+      grid-template-columns: repeat(12, 1fr) !important;
       .press-label {
         grid-column: 1 / 4 !important;
       }
@@ -25,6 +37,7 @@
       }
     }
     .sprpos {
+      grid-template-columns: repeat(12, 1fr) !important;
       .sprpos-label {
         grid-column: 1 / 4 !important;
       }
@@ -33,6 +46,7 @@
       }
     }
     .presstable {
+      grid-template-columns: repeat(12, 1fr) !important;
       .presstalbe-label {
         grid-column: 1 / 4 !important;
       }
@@ -44,15 +58,6 @@
       grid-column: 1 / -1 !important;
       grid-template-columns: repeat(auto-fit, minmax(50px, 1fr)) !important;
     }
-  }
-}
-
-@media (max-width: 750px) {
-  .app-name {
-    font-size: 22px !important;
-  }
-  .app-items {
-    font-size: 16px !important;
   }
 }
 

@@ -9,6 +9,8 @@ import data1 from '../data_1.json';
 import data2 from '../data_2.json';
 import data3 from '../data_3.json';
 
+import clickSound from '../sounds/button-15.wav';
+
 export default class Caclulator extends Component {
   state = {
     data: data1,
@@ -19,6 +21,13 @@ export default class Caclulator extends Component {
     spr2: null,
     spr3: null,
     showUpBtn: false
+  };
+
+  playClickSound = () => {
+    const sound = document.getElementById('audio2');
+    sound.volume = 0.2;
+    sound.playbackRate = 2;
+    sound.play();
   };
 
   wrightToLocalStorage = (pressure, index, spr1, spr2, spr3) => {
@@ -162,6 +171,8 @@ export default class Caclulator extends Component {
   };
 
   handleSetPressure = (pressure, index, spr1, spr2, spr3) => {
+    this.playClickSound();
+
     this.wrightToLocalStorage(pressure, index, spr1, spr2, spr3);
 
     this.setState({
@@ -174,6 +185,7 @@ export default class Caclulator extends Component {
   };
 
   handleIncreasePressure = () => {
+    this.playClickSound();
     if (this.state.selectedIndex < this.state.data.length - 1) {
       const newElem = this.state.data[this.state.selectedIndex + 1];
       const newPressure = newElem.pressure;
@@ -201,6 +213,7 @@ export default class Caclulator extends Component {
   };
 
   handleDecreasePressure = () => {
+    this.playClickSound();
     if (this.state.selectedIndex > 0) {
       const newElem = this.state.data[this.state.selectedIndex - 1];
       const newPressure = newElem.pressure;
@@ -254,6 +267,7 @@ export default class Caclulator extends Component {
   render() {
     return (
       <main className='calc'>
+        <audio id='audio2' src={clickSound} autoPlay={false} />
         <div className='calc-header'>
           <div className='header-label'>Количество пружин</div>
           <div className='header-btns'>
