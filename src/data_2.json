@@ -2,276 +2,276 @@
   {
     "spring_1_pos": 1,
     "spring_2_pos": 3,
-    "pressure": 20.41
+    "pressure": 15.7
   },
   {
     "spring_1_pos": 1,
     "spring_2_pos": 4,
-    "pressure": 25.59
+    "pressure": 19.6
   },
   {
     "spring_1_pos": 2,
     "spring_2_pos": 4,
-    "pressure": 29.18
+    "pressure": 22.44
   },
   {
     "spring_1_pos": 1,
     "spring_2_pos": 5,
-    "pressure": 31.56
+    "pressure": 24.27
   },
   {
     "spring_1_pos": 2,
     "spring_2_pos": 5,
-    "pressure": 35.15
+    "pressure": 27.03
   },
   {
     "spring_1_pos": 1,
     "spring_2_pos": 6,
-    "pressure": 38.33
+    "pressure": 29.48
   },
   {
     "spring_1_pos": 3,
     "spring_2_pos": 5,
-    "pressure": 39.53
+    "pressure": 30.4
   },
   {
     "spring_1_pos": 2,
     "spring_2_pos": 6,
-    "pressure": 41.92
+    "pressure": 32.24
   },
   {
     "spring_1_pos": 1,
     "spring_2_pos": 7,
-    "pressure": 45.89
+    "pressure": 35.3
   },
   {
     "spring_1_pos": 3,
     "spring_2_pos": 6,
-    "pressure": 46.3
+    "pressure": 35.61
   },
   {
     "spring_1_pos": 2,
     "spring_2_pos": 7,
-    "pressure": 49.48
+    "pressure": 38.06
   },
   {
     "spring_1_pos": 4,
     "spring_2_pos": 6,
-    "pressure": 51.47
+    "pressure": 39.59
   },
   {
     "spring_1_pos": 3,
     "spring_2_pos": 7,
-    "pressure": 53.86
+    "pressure": 41.43
   },
   {
     "spring_1_pos": 1,
     "spring_2_pos": 8,
-    "pressure": 54.25
+    "pressure": 41.73
   },
   {
     "spring_1_pos": 2,
     "spring_2_pos": 8,
-    "pressure": 57.84
+    "pressure": 44.49
   },
   {
     "spring_1_pos": 4,
     "spring_2_pos": 7,
-    "pressure": 59.04
+    "pressure": 45.41
   },
   {
     "spring_1_pos": 3,
     "spring_2_pos": 8,
-    "pressure": 62.22
+    "pressure": 47.86
   },
   {
     "spring_1_pos": 1,
     "spring_2_pos": 9,
-    "pressure": 63.4
+    "pressure": 48.76
   },
   {
     "spring_1_pos": 5,
     "spring_2_pos": 7,
-    "pressure": 65.01
+    "pressure": 50.0
   },
   {
     "spring_1_pos": 2,
     "spring_2_pos": 9,
-    "pressure": 66.99
+    "pressure": 51.53
   },
   {
     "spring_1_pos": 4,
     "spring_2_pos": 8,
-    "pressure": 67.4
+    "pressure": 51.84
   },
   {
     "spring_1_pos": 3,
     "spring_2_pos": 9,
-    "pressure": 71.37
+    "pressure": 54.9
   },
   {
     "spring_1_pos": 1,
     "spring_2_pos": 10,
-    "pressure": 73.35
+    "pressure": 56.42
   },
   {
     "spring_1_pos": 5,
     "spring_2_pos": 8,
-    "pressure": 73.37
+    "pressure": 56.43
   },
   {
     "spring_1_pos": 4,
     "spring_2_pos": 9,
-    "pressure": 76.55
+    "pressure": 58.88
   },
   {
     "spring_1_pos": 2,
     "spring_2_pos": 10,
-    "pressure": 76.94
+    "pressure": 59.18
   },
   {
     "spring_1_pos": 6,
     "spring_2_pos": 8,
-    "pressure": 80.14
+    "pressure": 61.64
   },
   {
     "spring_1_pos": 3,
     "spring_2_pos": 10,
-    "pressure": 81.32
+    "pressure": 62.55
   },
   {
     "spring_1_pos": 5,
     "spring_2_pos": 9,
-    "pressure": 82.52
+    "pressure": 63.47
   },
   {
     "spring_1_pos": 1,
     "spring_2_pos": 11,
-    "pressure": 84.1
+    "pressure": 64.69
   },
   {
     "spring_1_pos": 4,
     "spring_2_pos": 10,
-    "pressure": 86.5
+    "pressure": 66.53
   },
   {
     "spring_1_pos": 2,
     "spring_2_pos": 11,
-    "pressure": 87.69
+    "pressure": 67.45
   },
   {
     "spring_1_pos": 6,
     "spring_2_pos": 9,
-    "pressure": 89.29
+    "pressure": 68.68
   },
   {
     "spring_1_pos": 3,
     "spring_2_pos": 11,
-    "pressure": 92.07
+    "pressure": 70.82
   },
   {
     "spring_1_pos": 5,
     "spring_2_pos": 10,
-    "pressure": 92.47
+    "pressure": 71.13
   },
   {
     "spring_1_pos": 1,
     "spring_2_pos": 12,
-    "pressure": 95.64
+    "pressure": 73.56
   },
   {
     "spring_1_pos": 7,
     "spring_2_pos": 9,
+    "pressure": 74.5
+  },
+  {
+    "spring_1_pos": 4,
+    "spring_2_pos": 11,
+    "pressure": 74.8
+  },
+  {
+    "spring_1_pos": 2,
+    "spring_2_pos": 12,
+    "pressure": 76.32
+  },
+  {
+    "spring_1_pos": 6,
+    "spring_2_pos": 10,
+    "pressure": 76.33
+  },
+  {
+    "spring_1_pos": 5,
+    "spring_2_pos": 11,
+    "pressure": 79.4
+  },
+  {
+    "spring_1_pos": 3,
+    "spring_2_pos": 12,
+    "pressure": 79.7
+  },
+  {
+    "spring_1_pos": 7,
+    "spring_2_pos": 10,
+    "pressure": 82.15
+  },
+  {
+    "spring_1_pos": 4,
+    "spring_2_pos": 12,
+    "pressure": 83.67
+  },
+  {
+    "spring_1_pos": 6,
+    "spring_2_pos": 11,
+    "pressure": 84.6
+  },
+  {
+    "spring_1_pos": 5,
+    "spring_2_pos": 12,
+    "pressure": 88.27
+  },
+  {
+    "spring_1_pos": 8,
+    "spring_2_pos": 10,
+    "pressure": 88.58
+  },
+  {
+    "spring_1_pos": 7,
+    "spring_2_pos": 11,
+    "pressure": 90.42
+  },
+  {
+    "spring_1_pos": 6,
+    "spring_2_pos": 12,
+    "pressure": 93.47
+  },
+  {
+    "spring_1_pos": 8,
+    "spring_2_pos": 11,
     "pressure": 96.85
   },
   {
-    "spring_1_pos": 4,
-    "spring_2_pos": 11,
-    "pressure": 97.24
-  },
-  {
-    "spring_1_pos": 2,
-    "spring_2_pos": 12,
-    "pressure": 99.22
-  },
-  {
-    "spring_1_pos": 6,
-    "spring_2_pos": 10,
-    "pressure": 99.24
-  },
-  {
-    "spring_1_pos": 5,
-    "spring_2_pos": 11,
-    "pressure": 103.22
-  },
-  {
-    "spring_1_pos": 3,
-    "spring_2_pos": 12,
-    "pressure": 103.61
-  },
-  {
-    "spring_1_pos": 7,
-    "spring_2_pos": 10,
-    "pressure": 106.8
-  },
-  {
-    "spring_1_pos": 4,
-    "spring_2_pos": 12,
-    "pressure": 108.78
-  },
-  {
-    "spring_1_pos": 6,
-    "spring_2_pos": 11,
-    "pressure": 109.98
-  },
-  {
-    "spring_1_pos": 5,
-    "spring_2_pos": 12,
-    "pressure": 114.76
-  },
-  {
-    "spring_1_pos": 8,
-    "spring_2_pos": 10,
-    "pressure": 115.16
-  },
-  {
-    "spring_1_pos": 7,
-    "spring_2_pos": 11,
-    "pressure": 117.55
-  },
-  {
-    "spring_1_pos": 6,
-    "spring_2_pos": 12,
-    "pressure": 121.52
-  },
-  {
-    "spring_1_pos": 8,
-    "spring_2_pos": 11,
-    "pressure": 125.91
-  },
-  {
     "spring_1_pos": 7,
     "spring_2_pos": 12,
-    "pressure": 129.09
+    "pressure": 99.3
   },
   {
     "spring_1_pos": 9,
     "spring_2_pos": 11,
-    "pressure": 135.06
+    "pressure": 103.89
   },
   {
     "spring_1_pos": 8,
     "spring_2_pos": 12,
-    "pressure": 137.44
+    "pressure": 105.72
   },
   {
     "spring_1_pos": 9,
     "spring_2_pos": 12,
-    "pressure": 146.6
+    "pressure": 112.76
   },
   {
     "spring_1_pos": 10,
     "spring_2_pos": 12,
-    "pressure": 156.54
+    "pressure": 120.41
   }
 ]

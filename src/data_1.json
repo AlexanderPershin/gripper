@@ -1,50 +1,50 @@
 [
   {
     "spring_1_pos": 1,
-    "pressure": 6.22
+    "pressure": 5.8
   },
   {
     "spring_1_pos": 2,
-    "pressure": 9.81
+    "pressure": 8.7
   },
   {
     "spring_1_pos": 3,
-    "pressure": 14.19
+    "pressure": 12
   },
   {
     "spring_1_pos": 4,
-    "pressure": 19.37
+    "pressure": 17.8
   },
   {
     "spring_1_pos": 5,
-    "pressure": 25.34
+    "pressure": 18.6
   },
   {
     "spring_1_pos": 6,
-    "pressure": 32.11
+    "pressure": 27.4
   },
   {
     "spring_1_pos": 7,
-    "pressure": 39.67
+    "pressure": 36.2
   },
   {
     "spring_1_pos": 8,
-    "pressure": 48.03
+    "pressure": 45.7
   },
   {
     "spring_1_pos": 9,
-    "pressure": 57.18
+    "pressure": 52.2
   },
   {
     "spring_1_pos": 10,
-    "pressure": 67.13
+    "pressure": 62
   },
   {
     "spring_1_pos": 11,
-    "pressure": 77.88
+    "pressure": 68
   },
   {
     "spring_1_pos": 12,
-    "pressure": 89.42
+    "pressure": 78
   }
 ]
