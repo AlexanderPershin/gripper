@@ -6,3 +6,5 @@
 
 ***
 To run localy copy repository and enter `npm start` in the console window
+***
+[Go To Calculator](https://alexanderpershin.github.io/gripper/)
